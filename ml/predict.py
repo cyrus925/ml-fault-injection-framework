@@ -79,7 +79,7 @@ class Predict:
             logger.log_critical(e)
 
         finally:
-            logger.write()
+            logger.write() 
 
     
 
