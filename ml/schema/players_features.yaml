@@ -1,0 +1,13 @@
+dataset:
+  target: market_value_in_eur
+
+features:
+  numerical:
+    - age
+    - height_in_cm
+
+  categorical:
+    - position
+    - sub_position
+    - foot
+    - country_of_citizenship
