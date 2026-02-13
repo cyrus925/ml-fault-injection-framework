@@ -109,7 +109,6 @@ docker run -it `
   python-app
 ```
 
-Tous les logs peuvent être visualisés dans Power BI ou tout autre outil compatible CSV/Parquet.
 
 ## Améliorations & Perspectives
 
