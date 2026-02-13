@@ -22,6 +22,7 @@ class IngestionLogger:
             "status": "SUCCESS",
             "row_count": None,
             "missing_rate": None,
+            "corrupted_rows":0,
             "error_count": 0,
             "errors": [],
             "timestamp": None
@@ -39,6 +40,15 @@ class IngestionLogger:
 
         # Average rate of missing values
         self.event["missing_rate"] = float(df.isnull().mean().mean())
+
+    def log_corrupted_rows(self, errors:int) -> None:
+        '''
+        Save number if corrupted rows of the df
+        
+        errors(int): numbers of rows corrupted
+        '''
+        self.event["corrupted_rows"] = self.event["corrupted_rows"] + errors
+
 
     def log_errors(self, errors:list) -> None:
         '''

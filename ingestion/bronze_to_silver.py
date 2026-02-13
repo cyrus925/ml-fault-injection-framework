@@ -57,7 +57,13 @@ class Bronze :
 
             #Save the df to the target path
             if not errors:
+                df.to_parquet(self.target_path, engine="pyarrow", index=False)
+
+            try:
                 df.to_parquet(self.target_path, index=False)
+            except Exception as e:
+                logger.log_critical(e)
+
 
         except Exception as e:
             logger.log_critical(e)

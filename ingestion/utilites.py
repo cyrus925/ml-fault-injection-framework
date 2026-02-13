@@ -16,7 +16,7 @@ class FunctionsUtilites :
         Returns:
         path of the table schema 
         '''
-        return f'schema/{layer}_{name}.yaml'
+        return f'ingestion/schema/{layer}_{name}.yaml'
     
     def load_yaml(path:str)-> dict:
         '''

@@ -1,35 +1,4 @@
-layer,dataset,status,row_count,missing_rate,error_count,errors,timestamp
-bronze,players,CRITICAL,32601,0.058512475610910844,0,"[""[Errno 2] No such file or directory: 'schema/bronze/players.yaml'""]",2026-02-01T18:12:47.793645
-bronze,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-01T18:13:24.773797
-silver,players,CRITICAL,32601,0.058512475610910844,0,"[""'DataFrame' object has no attribute 'self'""]",2026-02-01T18:21:06.511393
-silver,players,CRITICAL,32601,0.058512475610910844,0,"[""[Errno 2] No such file or directory: 'schema/silver_players.yaml'""]",2026-02-01T18:29:09.749196
-silver,players,FAILED,32601,0.058512475610910844,4,"['Unexpected column: city_of_birth', 'Unexpected column: agent_name', 'Unexpected column: image_url', 'Unexpected column: url']",2026-02-01T18:29:37.319895
-silver,players,FAILED,32601,0.058512475610910844,4,"['Unexpected column: city_of_birth', 'Unexpected column: agent_name', 'Unexpected column: image_url', 'Unexpected column: url']",2026-02-01T18:30:50.914826
-silver,players,FAILED,32601,0.058512475610910844,4,"['Unexpected column: city_of_birth', 'Unexpected column: agent_name', 'Unexpected column: image_url', 'Unexpected column: url']",2026-02-01T18:31:13.997385
-silver,players,FAILED,32601,0.058512475610910844,4,"['Unexpected column: city_of_birth', 'Unexpected column: agent_name', 'Unexpected column: image_url', 'Unexpected column: url']",2026-02-01T18:31:58.707706
-silver,players,FAILED,32601,0.058512475610910844,4,"['Unexpected column: city_of_birth', 'Unexpected column: agent_name', 'Unexpected column: image_url', 'Unexpected column: url']",2026-02-01T18:32:27.878257
-silver,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-01T18:33:41.901609
-ingestion,bronze,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-08T22:34:42.503132
-ingestion,silver,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-08T22:34:42.624470
-ingestion,silver,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-08T23:01:08.628947
-ingestion,silver,players,CRITICAL,32601,0.058512475610910844,0,"[""'str' object has no attribute 'year'""]",2026-02-08T23:01:40.030982
-ingestion,silver,players,CRITICAL,32601,0.058512475610910844,0,"[""'str' object has no attribute 'year'""]",2026-02-08T23:02:24.553602
-ingestion,silver,players,CRITICAL,32601,0.058512475610910844,0,"[""'str' object has no attribute 'year'""]",2026-02-08T23:02:48.921698
-ingestion,silver,players,CRITICAL,32601,0.058512475610910844,0,"[""'str' object has no attribute 'year'""]",2026-02-08T23:04:43.781012
-ingestion,silver,players,CRITICAL,32601,0.058512475610910844,0,"[""'str' object has no attribute 'year'""]",2026-02-08T23:05:35.264919
-ingestion,silver,players,CRITICAL,32601,0.058512475610910844,0,"[""'str' object has no attribute 'year'""]",2026-02-08T23:06:16.560207
-ingestion,bronze,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-08T23:06:29.604091
-ingestion,silver,players,CRITICAL,32601,0.058512475610910844,0,"[""'str' object has no attribute 'year'""]",2026-02-08T23:06:29.630973
-ingestion,silver,players,CRITICAL,32601,0.058512475610910844,0,"[""'str' object has no attribute 'year'""]",2026-02-08T23:07:09.332964
-ingestion,silver,players,CRITICAL,32601,0.058512475610910844,0,"[""'str' object has no attribute 'year'""]",2026-02-08T23:07:35.410050
-ingestion,silver,players,CRITICAL,32601,0.058512475610910844,0,"[""'str' object has no attribute 'year'""]",2026-02-08T23:07:57.696907
-ingestion,silver,players,CRITICAL,32601,0.058512475610910844,0,"[""'str' object has no attribute 'year'""]",2026-02-08T23:08:29.259954
-ingestion,silver,players,CRITICAL,32601,0.058512475610910844,0,"[""'str' object has no attribute 'year'""]",2026-02-08T23:09:10.690304
-ingestion,bronze,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-08T23:11:03.074932
-ingestion,silver,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-08T23:11:03.192883
-ingestion,bronze,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-10T21:12:23.991250
-ingestion,silver,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-10T21:12:24.273269
-ingestion,bronze,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-10T21:23:41.450582
-ingestion,silver,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-10T21:23:41.568488
-ingestion,bronze,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-10T21:42:38.721743
-ingestion,silver,players,SUCCESS,32601,0.058512475610910844,0,[],2026-02-10T21:42:38.838422
+pipeline_stage,layer,dataset,status,row_count,missing_rate,corrupted_rows,error_count,errors,timestamp
+ingestion,bronze,players,SUCCESS,32601,0.058512475610910844,0,0,[],2026-02-13T01:55:54.292515
+ingestion,silver,players,SUCCESS,32601,0.058512475610910844,0,0,[],2026-02-13T01:55:54.431110
+ingestion,fault,player,SUCCESS,32601,0.03902794392810037,9765,0,[],2026-02-13T01:55:58.746354

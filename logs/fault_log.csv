@@ -1,7 +1,0 @@
-timestamp,input_path,rows_in,rows_out,fault_rate,age_corrupted,height_corrupted,unknown_positions,column_dropped,status,error_count,errors
-2026-02-08T22:26:42.773118,data\gold\players.parquet,32601,32601,0.1,3297,0,3265,1,DEGRADED,1,"[""HEIGHT_CORRUPTED_ERROR: Invalid value '[300 300 50 ... 50 None None]' for dtype 'float64'""]"
-2026-02-08T22:29:09.997564,data\gold\players.parquet,32601,32601,0.1,3297,0,3265,1,DEGRADED,1,"[""HEIGHT_CORRUPTED_ERROR: Invalid value '[300 300 50 ... 50 None None]' for dtype 'float64'""]"
-2026-02-08T22:34:48.003612,data\gold\players.parquet,32601,32601,0.1,3297,0,3265,1,DEGRADED,1,"[""HEIGHT_CORRUPTED_ERROR: Invalid value '[300 300 50 ... 50 None None]' for dtype 'float64'""]"
-2026-02-08T22:36:35.740459,data\gold\players.parquet,32601,32601,0.1,3297,0,3265,1,DEGRADED,1,"[""HEIGHT_CORRUPTED_ERROR: Invalid value '[300 300 50 ... 50 None None]' for dtype 'float64'""]"
-2026-02-08T22:37:08.181246,data\gold\players.parquet,32601,32601,0.1,3297,0,3265,1,DEGRADED,1,"[""HEIGHT_CORRUPTED_ERROR: Invalid value '[300 300 50 ... 50 None None]' for dtype 'float64'""]"
-2026-02-08T22:38:41.635359,data\gold\players.parquet,32601,32601,0.1,3297,0,3265,1,DEGRADED,1,"[""HEIGHT_CORRUPTED_ERROR: Invalid value '[300 300 50 ... 50 None None]' for dtype 'float64'""]"

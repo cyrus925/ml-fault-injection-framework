@@ -1,0 +1,65 @@
+dataset: players
+primary_key: player_id
+columns:
+  - name: player_id
+    type: int
+    nullable: false
+  - name: first_name
+    type: string
+    nullable: true
+  - name: last_name
+    type: string
+    nullable: true
+  - name: name
+    type: string
+    nullable: true
+  - name: last_season
+    type: int
+    nullable: true
+  - name: current_club_id
+    type: int
+    nullable: true
+  - name: player_code
+    type: string
+    nullable: true
+  - name: country_of_birth
+    type: string
+    nullable: true
+  - name: country_of_citizenship
+    type: string
+    nullable: true
+  - name: date_of_birth
+    type: date
+    nullable: true
+  - name: sub_position
+    type: string
+    nullable: true
+  - name: position
+    type: string
+    nullable: true 
+  - name: foot
+    type: string
+    nullable: true
+  - name: height_in_cm
+    type: int
+    nullable: true
+  - name: contract_expiration_date
+    type: date
+    nullable: true
+  - name: current_club_domestic_competition_id
+    type: string
+    nullable: true
+  - name: current_club_name
+    type: string
+    nullable: true
+  - name: market_value_in_eur
+    type: string
+    nullable: true
+  - name: highest_market_value_in_eur
+    type: string
+    nullable: true
+  - name: age
+    type: int
+    nullable: true
+
+  

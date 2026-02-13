@@ -1,6 +1,5 @@
 import pandas as pd
 import joblib
-from datetime import datetime
 from ingestion.utilites import FunctionsUtilites
 from pathlib import Path
 from ml.log_ml import MLLogger
